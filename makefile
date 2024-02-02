@@ -20,7 +20,7 @@ SRCS = $(wildcard *.c)
 OBJS = $(SRCS:.c=.o)
 
 # Name of the executable - YOU EDIT THIS BIT WITH YOUR EXECUTABLE NAME
-TARGET = file_manager
+TARGET = different_name_for_file_manager
 
 # Build the executable
 $(TARGET): $(OBJS)
